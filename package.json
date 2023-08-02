@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "description": "Nuxt + DaisyUI + Icones + VueUse Starter",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "d": "nuxt dev",
+    "prep": "nuxt prepare",
+    "p": "nuxt prepare",
+    "pd": "nuxt prepare && nuxt dev",
+    "generate": "nuxt generate",
+    "gen": "nuxt generate",
+    "g": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^0.7.4",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^20.4.5",
+    "@vueuse/nuxt": "^10.3.0",
+    "daisyui": "^3.5.0",
+    "nuxt": "^3.6.5",
+    "nuxt-icon": "^0.4.2"
+  },
+  "license":"MIT"
+}
