@@ -2,7 +2,7 @@
   <div class="flex items-center min-h-screen justify-center">
     <div class="card bg-base-200">
       <div class="card-body">
-        <div class="card-title">NDIV Starter</div>
+        <div class="card-title"><Icon name="ms:favorite" /> NDIV Starter</div>
         <ul class="menu rounded-box [&_a]:flex [&_a]:justify-between [&_img]:w-8 [&_img]:h-8 [&_a]:text-xl">
           <li>
             <a href="https://nuxt.com/docs" class="link" target="_blank">
