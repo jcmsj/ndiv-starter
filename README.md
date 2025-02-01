@@ -1,4 +1,4 @@
-# NDIV (Nuxt 3 + DaisyUI + Icones + VueUse) Starter
+# NDIV (Nuxt 3 + DaisyUI v4 + Icones + VueUse) Starter
 
 ## Docs:
 * [Nuxt 3](https://nuxt.com/docs/getting-started/introduction)
@@ -11,6 +11,7 @@
 * [Vue 3.3](https://blog.vuejs.org/posts/vue-3-3#experimental-features) experimental features are on
 ## About
 * My opinionated Nuxt starter kit
+* This branch uses Tailwind v3 and DaisyUI v4
 ## Setup
 
 Make sure to install the dependencies:
