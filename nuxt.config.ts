@@ -1,22 +1,21 @@
+import tailwindcss from "@tailwindcss/vite";
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: [
     "@nuxt/icon",
-    "@nuxtjs/tailwindcss",
     '@vueuse/nuxt',
   ],
-  vue: {
-    propsDestructure: true,
-  },
-  tailwindcss: {
-    cssPath: ["~/assets/css/tailwind.css", { injectPosition: "first" }],
-    viewer: false,
-  },
+  css: ['~/assets/css/main.css'],
   icon: {
     serverBundle: {
-      collections: ['material-symbols'] 
+      collections: ['material-symbols'],
     },
   },
   devtools: { enabled: true },
-  compatibilityDate: "2024-09-27",
+  compatibilityDate: "2025-02-01",
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  }
 })

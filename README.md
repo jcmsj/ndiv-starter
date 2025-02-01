@@ -8,7 +8,6 @@
 
 ## Extras
 * [useAppHead](composables/useAppHead.ts) adds a title template
-* [Vue 3.3](https://blog.vuejs.org/posts/vue-3-3#experimental-features) experimental features are on
 ## About
 * My opinionated Nuxt starter kit
 ## Setup

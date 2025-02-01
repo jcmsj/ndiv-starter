@@ -17,14 +17,15 @@
   },
   "devDependencies": {
     "@iconify-json/material-symbols": "^1.2.1",
-    "@nuxt/devtools": "^1.5.1",
+    "@nuxt/devtools": "2.0.0-beta.4",
     "@nuxt/icon": "^1.5.2",
-    "@nuxtjs/tailwindcss": "^6.12.1",
     "@types/node": "^22.7.3",
-    "@vueuse/nuxt": "^11.1.0",
-    "daisyui": "^4.12.10",
-    "nuxt": "^3.13.2"
+    "@vueuse/nuxt": "^12.5.0",
+    "daisyui": "5.0.0-beta.6",
+    "nuxt": "^3.15.4",
+    "@tailwindcss/vite": "^4.0.0",
+    "tailwindcss": "^4.0.0"
   },
   "license": "MIT",
-  "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b"
+  "packageManager": "pnpm@9.15.4+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
 }
